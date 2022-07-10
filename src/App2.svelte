@@ -1,7 +1,14 @@
 <script>
   import data from './assets/gravlista.json';
 
+  let namn = '';
+  let post = '';
+
   let list = data.data;
+
+  function addPost() {
+    console.log('namn: ', namn);
+  }
 </script>
 
 <main class="flex flex-col h-screen content-center items-center space-y-4">
@@ -12,6 +19,7 @@
       <span class="label-text">Lägg till</span>
     </label>
     <input
+      bind:value={namn}
       type="text"
       name="namn"
       placeholder="Namn"
@@ -21,10 +29,12 @@
       <span class="label-text">Inlägg</span>
     </label>
     <textarea
+      bind:value={post}
       class="textarea textarea-bordered h-24"
       placeholder="Texten här"
       name="post"
     />
+    <button on:click={addPost} class="btn btn-outline my-3">Skicka</button>
   </div>
 
   <section class="overflow-auto space-y-4">
