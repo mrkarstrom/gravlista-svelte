@@ -35,10 +35,5 @@
     placeholder="År"
     class="input input-bordered w-full max-w-xs"
   />
-  <button
-    on:click={() => {
-      sendAddPost;
-    }}
-    class="btn btn-outline my-3">Skicka</button
-  >
+  <button on:click={sendAddPost} class="btn btn-outline my-3">Skicka</button>
 </div>
