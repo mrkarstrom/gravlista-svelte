@@ -15,7 +15,6 @@
     };
     list.push(_post);
     list = list;
-
     namn = '';
     senast = '';
   }
@@ -59,7 +58,7 @@
   </div>
 
   <section class="overflow-auto space-y-4">
-    {#each list as listed}
+    {#each list.reverse() as listed}
       <div class="card w-96 bg-base-200 shadow-xl">
         <div class="card-body">
           <h2 class="card-title">
