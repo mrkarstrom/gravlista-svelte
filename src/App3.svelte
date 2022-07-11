@@ -20,7 +20,7 @@
   <Form {addPost} />
   <section class="overflow-auto space-y-4">
     {#each list as listed}
-      <Post namn={listed.namn} nummer={listed.nummer} senast={listed.senast} />
+      <Post {...listed} />
     {/each}
   </section>
 </main>
