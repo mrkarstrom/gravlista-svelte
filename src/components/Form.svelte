@@ -5,9 +5,9 @@
   let nummer = '';
 
   function sendAddPost() {
-    addPost(namn, nummer);
+    addPost(namn, senast);
     namn = '';
-    nummer = '';
+    senast = '';
   }
 </script>
 
