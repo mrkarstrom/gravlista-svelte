@@ -2,12 +2,19 @@
   import data from './assets/gravlista.json';
 
   let namn = '';
-  let post = '';
+  let senast = '';
+  let nummer = '';
 
   let list = data.data;
 
   function addPost() {
-    console.log('namn: ', namn);
+    const _post = {
+      nummer: list.length + 1,
+      namn: namn,
+      senast: senast,
+    };
+    list.push(_post);
+    list = list;
   }
 </script>
 
@@ -25,14 +32,25 @@
       placeholder="Namn"
       class="input input-bordered w-full max-w-xs"
     />
-    <label class="label" for="post">
-      <span class="label-text">Inlägg</span>
+    <!-- <label class="label" for="nummer">
+      <span class="label-text">Nummer</span>
     </label>
-    <textarea
-      bind:value={post}
-      class="textarea textarea-bordered h-24"
-      placeholder="Texten här"
-      name="post"
+    <input
+      bind:value={nummer}
+      type="text"
+      name="nummer"
+      placeholder="Nummer"
+      class="input input-bordered w-full max-w-xs"
+    /> -->
+    <label class="label" for="senast">
+      <span class="label-text">Senast</span>
+    </label>
+    <input
+      bind:value={senast}
+      type="text"
+      name="senast"
+      placeholder="År"
+      class="input input-bordered w-full max-w-xs"
     />
     <button on:click={addPost} class="btn btn-outline my-3">Skicka</button>
   </div>
