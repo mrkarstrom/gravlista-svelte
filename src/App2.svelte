@@ -15,6 +15,9 @@
     };
     list.push(_post);
     list = list;
+
+    namn = '';
+    senast = '';
   }
 </script>
 
