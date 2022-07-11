@@ -3,6 +3,12 @@
   let namn = '';
   let senast = '';
   let nummer = '';
+
+  function sendAddPost() {
+    addPost(namn, nummer);
+    namn = '';
+    nummer = '';
+  }
 </script>
 
 <h1 class="text-5xl font-bold py-6">Gravlista</h1>
@@ -31,7 +37,7 @@
   />
   <button
     on:click={() => {
-      addPost(namn, nummer);
+      sendAddPost;
     }}
     class="btn btn-outline my-3">Skicka</button
   >
