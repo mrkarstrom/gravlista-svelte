@@ -1,5 +1,5 @@
 <script>
-  import data from './assets/gravlista.json';
+  import data from './assets/gravlista-short.json';
 
   let list = data.data;
 </script>

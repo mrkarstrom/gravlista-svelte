@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "nummer": 1,
+      "namn": "Johan Nyberg",
+      "senast": 1905
+    },
+    {
+      "nummer": 2,
+      "namn": "August Jakobsson",
+      "senast": 1953
+    },
+    {
+      "nummer": 3,
+      "namn": "Johan Högbom",
+      "senast": 1852
+    },
+    {
+      "nummer": 4,
+      "namn": "Anna Otteliana Häggström",
+      "senast": 1868
+    },
+    {
+      "nummer": 5,
+      "namn": "Jonas Helmer Jonsson",
+      "senast": 1948
+    },
+    {
+      "nummer": 6,
+      "namn": "Barbro Johanna Olofsson",
+      "senast": 1996
+    },
+    {
+      "nummer": 7,
+      "namn": "Dagmar Johanna Holmlund",
+      "senast": 1994
+    },
+    {
+      "nummer": 8,
+      "namn": "Berit Maria Idelius",
+      "senast": 1995
+    },
+    {
+      "nummer": 9,
+      "namn": "Eva Karolina Strandberg",
+      "senast": 1907
+    },
+    {
+      "nummer": 10,
+      "namn": "Margit Matilda Nygren",
+      "senast": 1970
+    },
+    {
+      "nummer": 11,
+      "namn": "Maja Stina Olofsdotter",
+      "senast": 1920
+    },
+    {
+      "nummer": 12,
+      "namn": "O Nygren",
+      "senast": 1926
+    },
+    {
+      "nummer": 13,
+      "namn": "Karolina Josefina Olofsson",
+      "senast": 1900
+    },
+    {
+      "nummer": 14,
+      "namn": "Karl Erik Halvar Eriksson",
+      "senast": 1993
+    },
+    {
+      "nummer": 15,
+      "namn": "Gustav Albin Lundberg",
+      "senast": 1985
+    },
+    {
+      "nummer": 16,
+      "namn": "Ida Sofia Lundberg",
+      "senast": 1966
+    },
+    {
+      "nummer": 17,
+      "namn": "Johan Edvin Sehlin",
+      "senast": 1981
+    },
+    {
+      "nummer": 18,
+      "namn": "Anna Lisa Jakobsson",
+      "senast": 1994
+    },
+    {
+      "nummer": 19,
+      "namn": "Rudolf Valdemar Nordell",
+      "senast": 1987
+    },
+    {
+      "nummer": 20,
+      "namn": "Anna Karolina Olofsdotter",
+      "senast": 1927
+    }
+  ]
+}
